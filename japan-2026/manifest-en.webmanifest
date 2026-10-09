@@ -1,0 +1,26 @@
+{
+  "id": "./",
+  "name": "Autumn in Japan · 2026",
+  "short_name": "Japan 2026",
+  "description": "Nine days in Tokyo, Kawaguchiko and Kyoto. Itinerary, hotels, transport and favorite places.",
+  "start_url": "./?lang=en#plan",
+  "scope": "./",
+  "display": "standalone",
+  "lang": "en",
+  "background_color": "#f6f3eb",
+  "theme_color": "#254538",
+  "icons": [
+    {
+      "src": "assets/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

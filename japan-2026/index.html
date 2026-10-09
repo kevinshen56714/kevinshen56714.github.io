@@ -9,7 +9,7 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
   <meta name="apple-mobile-web-app-title" content="秋日日本">
-  <meta property="og:title" content="秋日日本 · 2026 年 11 月 20–28 日">
+  <meta property="og:title" content="Autumn in Japan · 秋日日本 2026">
   <meta property="og:description" content="東京的街角、富士山的晨光，和京都的楓紅。九天八夜，一起慢慢走。">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://kevinshen56714.github.io/japan-2026/">
@@ -19,38 +19,46 @@
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="stylesheet" href="styles.css">
   <script src="data.js" defer></script>
+  <script src="en.js" defer></script>
+  <script src="i18n.js" defer></script>
   <script src="app.js" defer></script>
 </head>
 <body>
-  <a class="skip-link" href="#main">跳至主要內容</a>
+  <a class="skip-link" href="#main" data-i18n="跳至主要內容">跳至主要內容</a>
   <header class="site-header">
-    <a class="brand" href="#plan" aria-label="秋日日本首頁">
+    <a class="brand" href="#plan" aria-label="秋日日本首頁" data-i18n-label="秋日日本首頁">
       <span class="brand-mark" aria-hidden="true">秋</span>
-      <span><strong>秋日日本</strong><small>OUR JAPAN · 2026</small></span>
+      <span><strong data-i18n="秋日日本">秋日日本</strong><small>OUR JAPAN · 2026</small></span>
     </a>
-    <nav class="desktop-nav" aria-label="主要導覽">
-      <a href="#plan" data-nav="plan">每日行程</a>
-      <a href="#stays" data-nav="stays">住宿</a>
-      <a href="#transit" data-nav="transit">航班與交通</a>
-      <a href="#places" data-nav="places">口袋清單</a>
-      <a href="#prepare" data-nav="prepare">出發準備</a>
+    <nav class="desktop-nav" aria-label="主要導覽" data-i18n-label="主要導覽">
+      <a href="#plan" data-nav="plan" data-i18n="每日行程">每日行程</a>
+      <a href="#stays" data-nav="stays" data-i18n="住宿">住宿</a>
+      <a href="#transit" data-nav="transit" data-i18n="航班與交通">航班與交通</a>
+      <a href="#places" data-nav="places" data-i18n="口袋清單">口袋清單</a>
+      <a href="#prepare" data-nav="prepare" data-i18n="出發準備">出發準備</a>
     </nav>
-    <div class="header-clock"><span class="live-dot" aria-hidden="true"></span><span>日本時間 <strong id="japan-clock">--:--</strong></span></div>
+    <div class="header-tools">
+      <div class="language-switch" role="group" aria-label="顯示語言" data-i18n-label="顯示語言">
+        <button type="button" data-action="language" data-language="zh" aria-label="切換為中文" data-i18n-label="切換為中文" aria-pressed="true" class="active">中文</button>
+        <button type="button" data-action="language" data-language="en" aria-label="切換為英文" data-i18n-label="切換為英文" aria-pressed="false">EN</button>
+      </div>
+      <div class="header-clock"><span class="live-dot" aria-hidden="true"></span><span><span data-i18n="日本時間">日本時間</span> <strong id="japan-clock">--:--</strong></span></div>
+    </div>
   </header>
   <main id="main" tabindex="-1">
     <noscript><div class="noscript"><h1>秋日日本 · 2026/11/20–28</h1><p>請開啟 JavaScript 使用每日行程、導航與離線功能。</p><p>11/20–24 東急 STAY 青山 Premier；11/24–25 Sunnide Resort；11/25–28 Hyatt Regency Kyoto。</p><p>去程 GK14：11/20 桃園 T1 12:50 → 成田 T3 16:55。回程 GK55：11/28 關西 T1 14:55 → 桃園 T1 17:15。皆為出發／抵達地當地時間。</p></div></noscript>
   </main>
-  <footer class="site-footer"><span>慢慢走，也是一種旅行。</span><span>2026.11.20 — 11.28 <span class="footer-separator">/</span> <button class="text-button" data-action="sources">資料與使用說明</button></span></footer>
-  <nav class="mobile-nav" aria-label="手機主要導覽">
-    <a href="#plan" data-nav="plan"><svg aria-hidden="true"><use href="#i-calendar"/></svg><span>行程</span></a>
-    <a href="#stays" data-nav="stays"><svg aria-hidden="true"><use href="#i-bed"/></svg><span>住宿</span></a>
-    <a href="#transit" data-nav="transit"><svg aria-hidden="true"><use href="#i-train"/></svg><span>交通</span></a>
-    <a href="#places" data-nav="places"><svg aria-hidden="true"><use href="#i-heart"/></svg><span>口袋</span></a>
-    <a href="#prepare" data-nav="prepare"><svg aria-hidden="true"><use href="#i-checklist"/></svg><span>準備</span></a>
+  <footer class="site-footer"><span data-i18n="慢慢走，也是一種旅行。">慢慢走，也是一種旅行。</span><span>2026.11.20 — 11.28 <span class="footer-separator">/</span> <button class="text-button" data-action="sources" data-i18n="資料與使用說明">資料與使用說明</button></span></footer>
+  <nav class="mobile-nav" aria-label="手機主要導覽" data-i18n-label="手機主要導覽">
+    <a href="#plan" data-nav="plan"><svg aria-hidden="true"><use href="#i-calendar"/></svg><span data-i18n="行程">行程</span></a>
+    <a href="#stays" data-nav="stays"><svg aria-hidden="true"><use href="#i-bed"/></svg><span data-i18n="住宿">住宿</span></a>
+    <a href="#transit" data-nav="transit"><svg aria-hidden="true"><use href="#i-train"/></svg><span data-i18n="交通">交通</span></a>
+    <a href="#places" data-nav="places"><svg aria-hidden="true"><use href="#i-heart"/></svg><span data-i18n="口袋">口袋</span></a>
+    <a href="#prepare" data-nav="prepare"><svg aria-hidden="true"><use href="#i-checklist"/></svg><span data-i18n="準備">準備</span></a>
   </nav>
   <dialog id="detail-dialog" aria-labelledby="dialog-title"><div id="dialog-content"></div></dialog>
   <div id="toast" class="toast" role="status" aria-live="polite"></div>
-  <div id="offline-status" class="connection-status" role="status" hidden>目前離線 · 已儲存的行程仍可查看</div>
+  <div id="offline-status" class="connection-status" role="status" data-i18n="目前離線 · 已儲存的行程仍可查看" hidden>目前離線 · 已儲存的行程仍可查看</div>
   <svg class="icon-library" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
     <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14m-6-6 6 6-6 6"/></symbol>
     <symbol id="i-chevron" viewBox="0 0 24 24"><path d="m9 5 7 7-7 7"/></symbol>

@@ -1,5 +1,5 @@
-const CACHE = 'autumn-japan-2026-20261008-v2';
-const FILES = ['./', './index.html', './styles.css', './data.js', './app.js', './manifest.webmanifest', './assets/fuji.svg', './assets/tokyo.svg', './assets/kyoto.svg', './assets/icon.svg', './assets/icon-192.png', './assets/icon-512.png'];
+const CACHE = 'autumn-japan-2026-20261008-v3';
+const FILES = ['./', './index.html', './styles.css', './data.js', './app.js', './en.js', './i18n.js', './manifest-en.webmanifest', './manifest.webmanifest', './assets/fuji.svg', './assets/tokyo.svg', './assets/kyoto.svg', './assets/icon.svg', './assets/icon-192.png', './assets/icon-512.png'];
 self.addEventListener('install', event => {
   event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(FILES)).then(() => self.skipWaiting()));
 });
