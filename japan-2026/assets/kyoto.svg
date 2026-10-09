@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 460" width="620" height="460">
+<defs><pattern id="grain" width="7" height="9" patternUnits="userSpaceOnUse"><circle cx="2" cy="4" r=".5" fill="#324c40" opacity=".08"/></pattern></defs>
+<rect width="620" height="460" fill="#ece3d3"/><circle cx="454" cy="91" r="34" fill="#d1ac7c"/>
+<path d="M0 246Q58 128 139 218Q225 123 319 214Q398 116 471 186Q552 135 620 208V397H0" fill="#a6b19b"/><path d="M0 291Q85 207 162 274Q242 191 327 261Q407 186 493 249Q555 210 620 262V417H0" fill="#7b947b"/>
+<path d="M0 348Q103 263 219 330Q314 275 418 326Q536 270 620 331V460H0" fill="#577c60"/>
+<path d="M285 133V110M285 103V88" stroke="#927557" stroke-width="4"/><circle cx="285" cy="106" r="6" fill="none" stroke="#927557" stroke-width="3"/>
+<g fill="#a56c50"><rect x="267" y="148" width="37" height="38"/><rect x="259" y="191" width="54" height="37"/><rect x="247" y="235" width="79" height="42"/><rect x="233" y="284" width="103" height="42"/><rect x="219" y="336" width="136" height="56"/></g>
+<g fill="#3e5949"><path d="M251 143Q275 145 285 127Q297 145 319 143L309 156H261Z"/><path d="M239 183Q267 185 285 171Q303 185 331 183L316 197H254Z"/><path d="M226 226Q264 230 285 211Q306 230 344 226L326 242H245Z"/><path d="M211 273Q257 278 285 257Q313 278 359 273L336 291H233Z"/><path d="M191 324Q249 330 285 304Q321 330 379 324L353 344H219Z"/></g>
+<g fill="#ead0a5"><path d="M276 164h18v15h-18Zm-8 42h14v17h-14Zm24 0h14v17h-14Zm-33 44h16v23h-16Zm31 0h16v23h-16Zm-44 48h18v24h-18Zm32 0h18v24h-18Zm32 0h18v24h-18Z"/></g><rect x="271" y="355" width="29" height="37" fill="#493e32"/>
+<path d="M171 460L246 397H324L409 460Z" fill="#c6b79b"/><path d="M191 440H387M211 422H363M234 405H337" stroke="#e5d5b8" stroke-width="3"/>
+<g stroke="#6f5945" stroke-width="7" fill="none"><path d="M62 435L84 258M71 359L18 308M77 320L139 270M540 444L524 264M531 347L481 309M534 371L602 322"/></g>
+<g fill="#b26d47"><circle cx="47" cy="274" r="46"/><circle cx="105" cy="249" r="43"/><circle cx="138" cy="292" r="35"/><circle cx="18" cy="320" r="40"/><circle cx="515" cy="267" r="46"/><circle cx="566" cy="285" r="47"/><circle cx="607" cy="321" r="44"/></g><g fill="#cc9656"><circle cx="73" cy="257" r="31"/><circle cx="122" cy="269" r="30"/><circle cx="27" cy="296" r="26"/><circle cx="485" cy="301" r="34"/><circle cx="551" cy="258" r="30"/><circle cx="590" cy="285" r="25"/></g>
+<path d="M0 440Q70 402 157 428M423 436Q528 399 620 438" fill="none" stroke="#365b43" stroke-width="42"/><g fill="#c59150"><path d="M208 164l8 5-7 8Z"/><path d="M427 217l9 5-8 7Z"/><path d="M448 398l8 4-7 7Z"/></g><rect width="620" height="460" fill="url(#grain)"/>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 460" width="620" height="460">
+<defs><pattern id="windows" width="19" height="23" patternUnits="userSpaceOnUse"><rect x="5" y="7" width="7" height="10" rx="1" fill="#e6e2c9" opacity=".7"/></pattern><pattern id="grain" width="7" height="9" patternUnits="userSpaceOnUse"><circle cx="2" cy="4" r=".5" fill="#324c40" opacity=".08"/></pattern></defs>
+<rect width="620" height="460" fill="#ede5d5"/><circle cx="457" cy="94" r="37" fill="#d1a16c"/><path d="M37 125h103m345 21h73" stroke="#f8f1df" stroke-width="8" stroke-linecap="round"/>
+<path d="M0 326V244H71V204H118V275H150V179H216V262H265V224H316V285H351V199H399V260H449V178H505V255H551V213H620V365Z" fill="#b2b5a1"/>
+<g fill="#7e9281"><rect x="31" y="245" width="90" height="131" rx="3"/><rect x="140" y="227" width="78" height="153"/><rect x="461" y="243" width="71" height="137"/><rect x="554" y="223" width="66" height="153"/></g>
+<path d="M313 107L283 301H347Z" fill="#b5684d"/><path d="M309 67H316V111H309Z" fill="#8b6850"/><path d="M304 158H325M298 197H333M292 234H339M284 284H346" stroke="#f2e5ce" stroke-width="5"/><path d="M303 191L333 236M294 237L342 284M325 191L294 236M333 237L286 284" stroke="#eedbbf" stroke-width="3"/>
+<g fill="#567263"><path d="M226 382V297L259 280L284 297V382Z"/><rect x="362" y="268" width="74" height="117" rx="2"/></g><g fill="url(#windows)"><rect x="31" y="251" width="90" height="116"/><rect x="144" y="232" width="72" height="138"/><rect x="368" y="275" width="63" height="99"/><rect x="468" y="249" width="56" height="124"/><rect x="560" y="230" width="60" height="148"/></g>
+<path d="M0 378H620V460H0Z" fill="#d6cbb3"/><path d="M176 460L264 377H353L451 460Z" fill="#9aa28e"/><path d="M313 390V401M313 416V433M313 450V460" stroke="#eee5d0" stroke-width="4"/>
+<g stroke="#776b4c" stroke-width="6"><path d="M56 430V319M117 413V326M497 416V315M572 430V314"/></g>
+<g fill="#c9a454"><circle cx="52" cy="300" r="45"/><circle cx="119" cy="313" r="35"/><circle cx="494" cy="299" r="40"/><circle cx="575" cy="294" r="49"/></g><g fill="#dac184"><circle cx="36" cy="281" r="28"/><circle cx="96" cy="305" r="23"/><circle cx="480" cy="284" r="26"/><circle cx="555" cy="275" r="31"/></g><g fill="#b5814d"><circle cx="76" cy="321" r="29"/><circle cx="516" cy="317" r="24"/><circle cx="598" cy="318" r="30"/></g>
+<path d="M0 447Q61 430 142 450M467 448Q551 430 620 446" fill="none" stroke="#617b60" stroke-width="23"/><rect width="620" height="460" fill="url(#grain)"/>
+</svg>

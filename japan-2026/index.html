@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#254538">
+  <meta name="description" content="2026 年 11 月 20–28 日，東京、河口湖與京都的九天八夜。每日行程、飯店地址、航班、交通與收藏地點，一起慢慢走。">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="秋日日本">
+  <meta property="og:title" content="秋日日本 · 2026 年 11 月 20–28 日">
+  <meta property="og:description" content="東京的街角、富士山的晨光，和京都的楓紅。九天八夜，一起慢慢走。">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://kevinshen56714.github.io/japan-2026/">
+  <title>秋日日本 · Our Japan, 2026</title>
+  <link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/icon-192.png">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="styles.css">
+  <script src="data.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳至主要內容</a>
+  <header class="site-header">
+    <a class="brand" href="#plan" aria-label="秋日日本首頁">
+      <span class="brand-mark" aria-hidden="true">秋</span>
+      <span><strong>秋日日本</strong><small>OUR JAPAN · 2026</small></span>
+    </a>
+    <nav class="desktop-nav" aria-label="主要導覽">
+      <a href="#plan" data-nav="plan">每日行程</a>
+      <a href="#stays" data-nav="stays">住宿</a>
+      <a href="#transit" data-nav="transit">航班與交通</a>
+      <a href="#places" data-nav="places">口袋清單</a>
+      <a href="#prepare" data-nav="prepare">出發準備</a>
+    </nav>
+    <div class="header-clock"><span class="live-dot" aria-hidden="true"></span><span>日本時間 <strong id="japan-clock">--:--</strong></span></div>
+  </header>
+  <main id="main" tabindex="-1">
+    <noscript><div class="noscript"><h1>秋日日本 · 2026/11/20–28</h1><p>請開啟 JavaScript 使用每日行程、導航與離線功能。</p><p>11/20–24 東急 STAY 青山 Premier；11/24–25 Sunnide Resort；11/25–28 Hyatt Regency Kyoto。</p><p>去程 GK14：11/20 桃園 T1 12:50 → 成田 T3 16:55。回程 GK55：11/28 關西 T1 14:55 → 桃園 T1 17:15。皆為出發／抵達地當地時間。</p></div></noscript>
+  </main>
+  <footer class="site-footer"><span>慢慢走，也是一種旅行。</span><span>2026.11.20 — 11.28 <span class="footer-separator">/</span> <button class="text-button" data-action="sources">資料與使用說明</button></span></footer>
+  <nav class="mobile-nav" aria-label="手機主要導覽">
+    <a href="#plan" data-nav="plan"><svg aria-hidden="true"><use href="#i-calendar"/></svg><span>行程</span></a>
+    <a href="#stays" data-nav="stays"><svg aria-hidden="true"><use href="#i-bed"/></svg><span>住宿</span></a>
+    <a href="#transit" data-nav="transit"><svg aria-hidden="true"><use href="#i-train"/></svg><span>交通</span></a>
+    <a href="#places" data-nav="places"><svg aria-hidden="true"><use href="#i-heart"/></svg><span>口袋</span></a>
+    <a href="#prepare" data-nav="prepare"><svg aria-hidden="true"><use href="#i-checklist"/></svg><span>準備</span></a>
+  </nav>
+  <dialog id="detail-dialog" aria-labelledby="dialog-title"><div id="dialog-content"></div></dialog>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <div id="offline-status" class="connection-status" role="status" hidden>目前離線 · 已儲存的行程仍可查看</div>
+  <svg class="icon-library" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14m-6-6 6 6-6 6"/></symbol>
+    <symbol id="i-chevron" viewBox="0 0 24 24"><path d="m9 5 7 7-7 7"/></symbol>
+    <symbol id="i-calendar" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="3"/><path d="M7 3v4m10-4v4M3 11h18m-13 5h2m4 0h2"/></symbol>
+    <symbol id="i-bed" viewBox="0 0 24 24"><path d="M3 20v-9h18v9M3 16h18M5 11V5h14v6M7 11V8h4v3m2 0V8h4v3"/></symbol>
+    <symbol id="i-train" viewBox="0 0 24 24"><rect x="5" y="3" width="14" height="15" rx="4"/><path d="M5 10h14m-7-7v7M8 15h.01M16 15h.01M8 18l-3 3m11-3 3 3"/></symbol>
+    <symbol id="i-plane" viewBox="0 0 24 24"><path d="m22 2-8 20-3-9-9-3L22 2Zm-11 11L22 2"/></symbol>
+    <symbol id="i-bus" viewBox="0 0 24 24"><rect x="4" y="3" width="16" height="16" rx="3"/><path d="M4 10h16m-8-7v7M7 15h.01M17 15h.01M7 19v2m10-2v2"/></symbol>
+    <symbol id="i-heart" viewBox="0 0 24 24"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0l-1 1-1-1a5.5 5.5 0 0 0-7.8 7.8L12 21l8.8-8.6a5.5 5.5 0 0 0 0-7.8Z"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></symbol>
+    <symbol id="i-map" viewBox="0 0 24 24"><path d="m3 6 6-3 6 3 6-3v15l-6 3-6-3-6 3V6Zm6-3v15m6-12v15"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12 4 4L19 6"/></symbol>
+    <symbol id="i-checklist" viewBox="0 0 24 24"><path d="m3 6 2 2 3-4m-5 9 2 2 3-4m-5 9 2 2 3-4M12 6h9m-9 7h9m-9 7h9"/></symbol>
+    <symbol id="i-search" viewBox="0 0 24 24"><circle cx="10" cy="10" r="6"/><path d="m15 15 6 6"/></symbol>
+    <symbol id="i-copy" viewBox="0 0 24 24"><rect x="8" y="8" width="13" height="13" rx="2"/><path d="M16 8V3H3v13h5"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><path d="m6 3 4 5-2 3c2 3 3 4 6 5l3-2 4 4-1 3c-9 1-18-8-17-17l3-1Z"/></symbol>
+    <symbol id="i-download" viewBox="0 0 24 24"><path d="M12 3v12m-5-5 5 5 5-5M4 16v5h16v-5"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path d="m6 6 12 12M6 18 18 6"/></symbol>
+    <symbol id="i-leaf" viewBox="0 0 24 24"><path d="M20 3C8 1 2 7 5 14c3 7 15 5 15-11ZM3 21 16 8"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
+    <symbol id="i-external" viewBox="0 0 24 24"><path d="M14 3h7v7m0-7L10 14M10 3H3v18h18v-7"/></symbol>
+    <symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1 1m12 12 1 1M5 19l1-1M18 6l1-1"/></symbol>
+    <symbol id="i-note" viewBox="0 0 24 24"><path d="M14 3H4v18h16V9l-6-6Zm0 0v6h6M8 13h8m-8 4h5"/></symbol>
+    <symbol id="i-cup" viewBox="0 0 24 24"><path d="M4 7h13v7a6.5 6.5 0 0 1-13 0V7Zm13 1h2a3 3 0 0 1 0 6h-2M2 21h17M7 2v2m5-2v2"/></symbol>
+  </svg>
+</body>
+</html>

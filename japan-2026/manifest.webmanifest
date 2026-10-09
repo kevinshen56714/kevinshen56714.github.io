@@ -1,0 +1,16 @@
+{
+  "id": "./",
+  "name": "秋日日本 · Our Japan 2026",
+  "short_name": "秋日日本",
+  "description": "東京、河口湖與京都，九天八夜的口袋旅遊手冊。",
+  "start_url": "./#plan",
+  "scope": "./",
+  "display": "standalone",
+  "lang": "zh-Hant",
+  "background_color": "#f6f3eb",
+  "theme_color": "#254538",
+  "icons": [
+    { "src": "assets/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "assets/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}
